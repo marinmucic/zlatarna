@@ -1,0 +1,206 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style:none;
+}
+
+
+
+html{
+    
+font-family: 'Old Standard TT', serif;
+/*font-family: 'Rajdhani', sans-serif;*/
+color:dimgrey; 
+    
+}
+
+.header{
+    height:20em;
+    background-color: #f5f5f5;
+	background-image: url("../images/angel.jpg");
+    background-position: center;
+}
+
+
+.box{
+    display: inline-block;
+    color:black;
+   /* border:solid 1px green;*/
+    max-width:20em; 
+    text-align: center;
+    margin:0.5em; 
+}
+
+
+.showcase-box{
+    color:black;
+    display: flex;
+}
+
+.container1{
+    flex-direction: column;
+    flex:1;
+    display: flex;
+}
+
+.container2{
+    flex-direction: column;
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container2 p{
+    margin: 0.5em 0 0.5em 1em;
+    font-size: 2em;
+}
+
+
+.add_to_cart_button{
+    display: block;
+    width: 30%;
+    background-color:#000066 ;
+    padding:0.5em;
+    color:white;
+    text-align: center; 
+    border:0.5px solid grey;
+    border-radius: 4px;
+    margin: 0.5em 0 0.2em 1em;
+}
+
+.button{
+    display: block;
+    background-color:#000066 ;
+    padding:0.5em;
+    color:white;
+    text-align: center; 
+    border:0.5px solid grey;
+    border-radius: 4px;
+}
+
+.tab input{
+    padding:0.5em;
+}
+
+.tab a{
+    display: inline-block;
+    background-color: #000066;
+    color: white;
+    font-size: 0.7em;
+    border:1px solid white;
+    border-radius: 4px;
+    padding: 0.3em;
+}
+
+.tab{
+    font-size:1.5em; 
+}
+.tab th{
+    color:black;
+}
+.tab td{
+    
+   padding: 1em;
+    border: 0.5px solid grey;
+}
+
+form {
+    padding:0.5em;
+}
+
+.field{
+    margin-top: 1em;
+}
+
+.field input,.field select{
+  padding: 1em;
+    
+}
+
+.error{
+    color:maroon;
+    
+}
+
+.img-constraint{
+    width: 300px;
+    height: 330px;
+}
+
+
+.n_o_c_p{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 3em;
+    width: 3em;
+    border-radius:1.3em;
+    background-color: #000066;
+    color: white;
+    float: right;
+}
+
+
+body{
+   /* border:1px solid grey;*/
+    margin: 2.5em auto 0 auto;
+	max-width: 1280px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav>li {
+    
+display:inline-block;
+padding:1em;
+/*border:0.5px solid red;*/
+
+
+}
+.admin-nav{
+    margin:1em;
+}
+.admin-nav li{
+    display: inline-block;
+    border:0.5px solid grey;
+    padding: 1em;
+    background-color: white;
+}
+.admin-nav li:hover{
+    background: grey;
+    
+}.admin-nav li:hover a{
+    color: white;
+}
+
+.admin-links li a{
+    display: block;
+    font-size: 1.5em;
+    
+}
+
+.admin-links{ 
+    padding-top: 1em;
+}
